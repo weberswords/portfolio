@@ -11,14 +11,14 @@ export const links: Link[] = [
     nameIta: "Chi sono",
     hash: "#about",
   },
-  // {
-  //   nameEng: "Projects",
-  //   nameIta: "Progetti",
-  //   hash: "#projects",
-  // },
   {
-    nameEng: "Skills",
-    nameIta: "Skills",
+    nameEng: "Projects",
+    nameIta: "Progetti",
+    hash: "#projects",
+  },
+  {
+    nameEng: "Resources",
+    nameIta: "Risorse",
     hash: "#skills",
   },
   {
@@ -31,30 +31,7 @@ export const links: Link[] = [
 export const projectsData: ProjectInfo[] = [
   {
     title: "title",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
-    imageUrl: "/app-example.png",
-    link: "https://www.google.com",
-  },
-  {
-    title: "title",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
-    imageUrl: "/app-example.png",
-    link: "https://www.google.com",
-  },
-  {
-    title: "title",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
-    imageUrl: "/app-example.png",
-    link: "https://www.google.com",
-  },
-  {
-    title: "title",
+    objectives: [],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],

@@ -4,6 +4,7 @@ export type SectionName = (typeof links)[number]["hash"];
 
 export type ProjectInfo = {
   title: string;
+  objectives: string[];
   description: string;
   tags: string[];
   imageUrl: string;
