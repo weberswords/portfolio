@@ -42,18 +42,4 @@ export const projectsData: ProjectInfo[] = [
 ];
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux Toolkit",
-  "Express",
-  "Framer Motion",
 ];

@@ -5,14 +5,13 @@ import Header from "@/components/header";
 import Providers from "@/containers/providers";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-controller";
-import LanguageSwitch from "@/components/language-controller";
 import Navbar from "@/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mohamed Rhanmi | Personal Portfolio",
-  description: "Mohamed Rhanmi personal portfolio",
+  title: "Webs Weber",
+  description: "Teaching Applications Portfolio",
 };
 
 export default function RootLayout({
@@ -31,7 +30,6 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <LanguageSwitch />
           <ThemeSwitch />
         </Providers>
       </body>

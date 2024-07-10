@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/memoji.svg"
+              src="/webs.png"
               width="192"
               height="192"
               alt="portrait"
