@@ -52,7 +52,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            👋
+            🙌🏻
           </motion.span>
         </div>
       </div>
@@ -64,8 +64,8 @@ export default function Intro() {
       >
         {languageStrings.intro.greetings}
         <span className="font-bold">Stephanie "webs" Weber,</span>{" "}
-        <span className="font-bold">a PhD student, a teacher, a developer, and a product owner</span>
-        <span className="italic"></span>. {languageStrings.intro.focus}{"the acquisition and transfer of information"}
+        <span className="font-bold">{languageStrings.about.job}</span>
+        <span className="italic"></span>. {languageStrings.intro.focus}
         <span className="underline"></span>.
       </motion.h1>
 
@@ -77,16 +77,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
-          href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("#contact");
-            setTimeOfLastClick(Date.now());
-          }}
-        >
-          {languageStrings.intro.contact} <Mail color={"#9ca3af"} />
-        </Link>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
