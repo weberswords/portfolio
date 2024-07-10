@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/webs.png"
+              src="/webs.svg"
               width="192"
               height="192"
               alt="portrait"
@@ -63,12 +63,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {languageStrings.intro.greetings}{" "}
-        <span className="font-bold">Mohamed Rhanmi,</span>{" "}
+        <span className="font-bold">Stephanie "webs" Weber,</span>{" "}
         {languageStrings.intro.job}{" "}
-        <span className="font-bold">front-end developer</span>,{" "}
-        {languageStrings.intro.specialized}
-        <span className="italic"></span>. {languageStrings.intro.focus}{" "}
-        <span className="underline">React (NextJs)</span>.
+        <span className="font-bold">a PhD student, a teacher, a developer, and a product owner</span>{" "}
+        <span className="italic"></span>. {languageStrings.intro.focus}{"the acquisition and transfer of information"}
+        <span className="underline"></span>.
       </motion.h1>
 
       <motion.div
