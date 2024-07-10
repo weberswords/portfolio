@@ -9,6 +9,7 @@ export type ProjectInfo = {
   description: string;
   tags: string[];
   imageUrl: string;
+  imageAlt: string;
   link: string;
 };
 
