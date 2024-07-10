@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>
-        {activeLanguage === "It" ? "I miei lavori" : "My works"}
+        {activeLanguage === "It" ? "I miei lavori" : "Lessons"}
       </SectionHeading>
       <div>
         {projectsData.map((project, index) => (
