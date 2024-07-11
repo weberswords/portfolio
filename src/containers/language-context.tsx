@@ -25,7 +25,7 @@ export default function LanguageContextProvider({
     const browserLanguage = navigator.language.toLowerCase();
     return browserLanguage.startsWith("it") ? "It" : "En";
   });
-  const languageStrings = activeLanguage === "En" ? en : it;
+  const languageStrings = en;
 
   return (
     <LanguageContext.Provider
