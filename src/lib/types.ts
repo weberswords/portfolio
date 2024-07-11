@@ -4,7 +4,7 @@ export type SectionName = (typeof links)[number]["hash"];
 
 export type ProjectInfo = {
   title: string;
-  objectives: string[];
+  objectives: Objective[];
   audience: string;
   description: string;
   tags: string[];
@@ -15,7 +15,6 @@ export type ProjectInfo = {
 
 export type Link = {
   nameEng: string;
-  nameIta: string;
   hash: string;
 };
 
@@ -46,3 +45,9 @@ export type Texts = {
   intro: Intro;
   about: About;
 };
+
+export type Objective = {
+  type: string;
+  text: string;
+  standards: string[];
+}

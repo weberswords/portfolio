@@ -3,27 +3,22 @@ import { Link, ProjectInfo, Resource } from "./types";
 export const links: Link[] = [
   {
     nameEng: "Home",
-    nameIta: "Home",
     hash: "#home",
   },
   {
     nameEng: "About",
-    nameIta: "Chi sono",
     hash: "#about",
   },
   {
     nameEng: "Lessons",
-    nameIta: "Progetti",
     hash: "#projects",
   },
   {
     nameEng: "Resources",
-    nameIta: "Risorse",
     hash: "#resources",
   },
   {
     nameEng: "Contact",
-    nameIta: "Contatti",
     hash: "#contact",
   },
 ];
@@ -31,13 +26,18 @@ export const links: Link[] = [
 export const projectsData: ProjectInfo[] = [
   {
     title: "Getting Started with Miro",
-    objectives: [],
+    objectives: [
+      {type: "standard", text: "Be able to edit, duplicate, and delete sticky notes on a Miro board", standards: ["ISTE 1.6.c Models and Visualizations", "ISTE 1.6.d Customize the message"]}, 
+      {type: "standard", text: "Be able to explain what Miro can be used for", standards: ["ISTE 1.6.a Choose platforms or tools"]},
+      {type: "stretch", text: "Be able to add a sticky from the toolbar", standards: ["ISTE 1.6.a Choose platforms or tools", "ISTE 1.6.c Models and Visualizations", "ISTE 1.6.d Customize the message"]},
+      {type: "stretch", text: "Be able to add tags to a sticky note", standards: ["ISTE 1.6.a Choose platforms or tools", "ISTE 1.6.c Models and Visualizations", "ISTE 1.6.d Customize the message"]}
+      ],
     audience: "Adults at an EdTech Company",
     description:
       "During a retrospective, a group of EdTech professionals will be introduced to using Miro, an online whiteboarding tool for the first time.",
     tags: ["Miro", "retro", "edtech", "adult learning"],
     imageUrl: "/miro.png",
-    imageAlt: "",
+    imageAlt: "Black stylized M on a yellow background",
     link: "https://docs.google.com/document/d/1-DaPdQv3gA7mFZ1VibTbxCsJqD1CtXTB6c_ivcRD-eY/edit?usp=sharing",
   },
   {
