@@ -21,14 +21,7 @@ export default function About() {
     >
       <SectionHeading>{languageStrings.about.title}</SectionHeading>
       <p className="mb-3 text-xl">
-        {languageStrings.about.im}{" "}
-        <span className="font-medium">{languageStrings.about.job}</span>,{" "}
-        {languageStrings.about.description}{" "}
-        <span className="font-medium">{languageStrings.about.stacks}. </span>
-      </p>
-
-      <p className="text-xl">
-        <span className="italic">{languageStrings.about.otherPassion}</span>
+        {languageStrings.about.text}
       </p>
     </motion.section>
   );

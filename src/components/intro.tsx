@@ -63,8 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {languageStrings.intro.greetings}
-        <span className="font-bold">Stephanie "webs" Weber,</span>{" "}
-        <span className="font-bold">{languageStrings.about.job}</span>
+        <span className="font-bold">Stephanie "webs" Weber</span>
         <span className="italic"></span>. {languageStrings.intro.focus}
         <span className="underline"></span>.
       </motion.h1>
