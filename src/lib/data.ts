@@ -70,7 +70,7 @@ export const resourcesData: Resource[]= [
   {
     title: "Exercism",
     description:
-      "Lorem ipsum dolor sit amet, ne eos error definitiones. Eu cum nisl legendos. Vix id congue nominati platonem, an pericula consequuntur vim. Brute nemore mediocritatem eum no, mel labitur principes id. Eos tollit ceteros vulputate an.",
+      "Exercism is a website to learn coding. It allows the user to flexibly engage with the content and reduces extraneous cognitive load through the structure and aesthetics as well as the learning path options.",
     tags: ["coding"],
     imageUrl: "/exercism.png",
     imageAlt: "",
@@ -79,7 +79,7 @@ export const resourcesData: Resource[]= [
   {
     title: "AirTable",
     description:
-      "Lorem ipsum dolor sit amet, ne eos error definitiones. Eu cum nisl legendos. Vix id congue nominati platonem, an pericula consequuntur vim. Brute nemore mediocritatem eum no, mel labitur principes id. Eos tollit ceteros vulputate an.",
+      "AirTable's documentation and learning resources are useful, however, lacking in aesthetics and effective use of media. The content is relevant and flexible, but would benefit from strategies for reducing extraneous cognitive load.",
     tags: ["data"],
     imageUrl: "/airtable.png",
     imageAlt: "",
