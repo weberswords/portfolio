@@ -9,7 +9,7 @@ export default function Footer() {
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with
         React & Next.js, TypeScript, Tailwind CSS, Framer Motion, React Email &
-        Resend, Vercel hosting created by <a className="underline text-[#1d4ed8] dark:text-blue-300" href="https://github.com/morhaaa/mohamedrhanmi.com">Mohamed Rhanmi</a> modified by <a className="underline text-[#1d4ed8]" href="https://github.com/weberswords/portfolio">Stephanie Weber</a>.
+        Resend, Vercel hosting created by <a className="underline text-[#1d4ed8] dark:text-blue-300" href="https://github.com/morhaaa/mohamedrhanmi.com">Mohamed Rhanmi</a> modified by <a className="underline text-[#1d4ed8] dark:text-blue-300" href="https://github.com/weberswords/portfolio">Stephanie Weber</a>.
       </p>
     </footer>
   );
