@@ -42,7 +42,10 @@ export const projectsData: ProjectInfo[] = [
   },
   {
     title: "Getting Started with AirTable",
-    objectives: [],
+    objectives: [
+      {type: "standard", text: "Modify the questions in the feedback form", standards: ["ISTE 1.6.b Original and Remixed Works"]},
+      {type: "standard", text: "Share the user feedback form", standards: []}
+    ],
     audience: "Product Owners at an EdTech Company",
     description:
       "One tool product owners can use to capture customer feedback about their products is AirTable. It provides one place to collect, analyze, and create dashboards for data.",
