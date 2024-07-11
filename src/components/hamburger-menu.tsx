@@ -72,7 +72,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
                     setTimeOfLastClick(Date.now());
                   }}
                 >
-                  {activeLanguage === "It" ? link.nameIta : link.nameEng}
+                  {link.nameEng}
                 </NextLink>
               </motion.div>
             ))}

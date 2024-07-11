@@ -64,9 +64,7 @@ export default function Contact() {
       </SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        {activeLanguage === "It"
-          ? "Non esitare a contattarmi tramite questo form"
-          : "Feel free to contact me directly through this form"}
+         Feel free to contact me directly through this form
       </p>
 
       <form
