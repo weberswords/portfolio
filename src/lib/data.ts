@@ -39,8 +39,13 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Getting Started with AirTable",
     objectives: [
+      {type: "standard", text: "Collect, analyze, and display customer feedback data", standards: ["ISTE 1.5.c - Decompose Problems"]},
       {type: "standard", text: "Modify the questions in the feedback form", standards: ["ISTE 1.6.b Original and Remixed Works"]},
-      {type: "standard", text: "Share the user feedback form", standards: []}
+      {type: "standard", text: "Share the user feedback form", standards: ["ISTE 1.5.b - Data Sets"]},
+      {type: "standard", text: "Add an interface based on the data", standards: ["ISTE 1.5.b - Data Sets"]},
+      {type: "stretch", text: "Add a question to the user feedback form", standards: []},
+      {type: "stretch", text: "Add a list of respondents who have not been contacted with an NPS score between 5-7", standards: []},
+      
     ],
     audience: "Product Owners at an EdTech Company",
     description:

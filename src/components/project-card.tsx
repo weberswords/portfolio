@@ -23,7 +23,7 @@ export default function Project({
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const styledObjective = "px-3 text-[0.7rem] font-mono dark:bg-purple-700 bg-purple-300 font-bold"
+  const styledObjective = "text-[0.7rem] mb-4 font-mono dark:bg-purple-700 bg-purple-300 font-bold"
 
   return (
     <a href={link}>
@@ -41,14 +41,14 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap mt-4 sm:mt-auto">
             {objectives.map((objective, index) => (
               <li
-                className={objective.type == "standard" ? "px-3 text-[0.7rem] font-mono font-bold" : styledObjective}
+                className={objective.type == "standard" ? "text-[0.7rem] mb-4 font-mono font-bold" : styledObjective}
                 key={index}
               >
                 {objective.text}
-                <div className="flex flex-wrap mt-4 gap-4 font-light">
+                <div className="flex flex-wrap font-light">
                 {objective.standards.join(" | ")}
                 </div>
               </li>
