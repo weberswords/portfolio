@@ -73,3 +73,5 @@ export const resourcesData: Resource[]= [
     link: "https://docs.google.com/document/d/1fcQrQdHoGWnc8PqoKvjg7qW97jvGCROP64T8GmwqwSk/edit?usp=sharing",
   },
 ];
+
+export const skillsData = []
