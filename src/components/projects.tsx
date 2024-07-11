@@ -18,7 +18,7 @@ export default function Projects() {
         {activeLanguage === "It" ? "I miei lavori" : "Lessons"}
       </SectionHeading>
       <div>
-        <p>These are sessions/lessons that include objectives for teaching applications. Stretch objectives, objectives that were optional for participants, are marked with a <span className="bg-[#e9d5ff]">lavender</span>background.</p>
+        <p>These are sessions/lessons that include objectives for teaching applications. Stretch objectives, objectives that were optional for participants, are marked with a <span className="bg-[#e9d5ff]">lavender</span> background.</p>
       </div>
       <div>
         {projectsData.map((project, index) => (
