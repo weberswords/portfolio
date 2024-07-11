@@ -17,10 +17,6 @@ export const links: Link[] = [
     nameEng: "Resources",
     hash: "#resources",
   },
-  {
-    nameEng: "Contact",
-    hash: "#contact",
-  },
 ];
 
 export const projectsData: ProjectInfo[] = [
