@@ -13,6 +13,7 @@ export default function Project({
   tags,
   imageUrl,
   imageAlt,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -23,7 +24,9 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
-    <motion.div
+    
+<a href={link} className="block m-8 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<motion.div
       ref={ref}
       style={{
         scale: scaleProgess,
@@ -70,5 +73,6 @@ export default function Project({
         />
       </section>
     </motion.div>
+    </a>
   );
 }
