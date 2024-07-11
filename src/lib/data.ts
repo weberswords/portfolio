@@ -45,7 +45,6 @@ export const projectsData: ProjectInfo[] = [
       {type: "standard", text: "Add an interface based on the data", standards: ["ISTE 1.5.b - Data Sets"]},
       {type: "stretch", text: "Add a question to the user feedback form", standards: []},
       {type: "stretch", text: "Add a list of respondents who have not been contacted with an NPS score between 5-7", standards: []},
-      
     ],
     audience: "Product Owners at an EdTech Company",
     description:
@@ -58,8 +57,14 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "Getting Started with Password Management",
     objectives: [
-      {type: "standard", text: "Modify the questions in the feedback form", standards: ["ISTE 1.6.b Original and Remixed Works"]},
-      {type: "standard", text: "Share the user feedback form", standards: []}
+      {type: "standard", text: "Add LastPass to the browser", standards: ["ISTE 1.2.b Online Behavior", "ISTE 1.2.d Digital Privacy"]},
+      {type: "standard", text: "Add a password for an account", standards: ["ISTE 1.2.b Online Behavior", "ISTE 1.2.d Digital Privacy"]},
+      {type: "standard", text: "Use the password generator", standards: ["ISTE 1.2.b Online Behavior", "ISTE 1.2.d Digital Privacy"]},
+      {type: "standard", text: "Change a password with LastPass", standards: ["ISTE 1.2.b Online Behavior", "ISTE 1.2.d Digital Privacy"]},
+      {type: "standard", text: "Give an example of racism in biometrics", standards: ["ISTE 1.7.b Multiple Viewpoints"]},
+      {type: "standard", text: "Give one or more ways to fight racism in biometrics", standards: ["ISTE 1.7.b Multiple Viewpoints"]},
+      {type: "stretch", text: "Find an old password in the history widget", standards: ["ISTE 1.2.d Digital Privacy"]},
+      {type: "stretch", text: "Evaluate other password managers", standards: ["ISTE 1.2.d Digital Privacy"]}
     ],
     audience: "Product Owners at an EdTech Company",
     description:
