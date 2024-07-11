@@ -20,8 +20,12 @@ export default function About() {
       id="about"
     >
       <SectionHeading>{languageStrings.about.title}</SectionHeading>
-      <p className="mb-3 text-xl">
-        {languageStrings.about.text}
+      <p className="mb-3 text-left">
+        {languageStrings.about.text.map((text, index) => (
+              <p className="text-left" key={index}>
+                {text}
+              </p>
+        ))}
       </p>
     </motion.section>
   );

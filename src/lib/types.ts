@@ -31,7 +31,7 @@ type Intro = {
 
 type About = {
   title: string;
-  text: string;
+  text: string[];
 };
 export type Resource = {
   title: string;
