@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, createContext, useContext } from "react";
-import it from "@/languages/it";
 import en from "@/languages/en";
 import { Texts } from "@/lib/types";
 
