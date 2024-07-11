@@ -15,7 +15,7 @@ export default function Projects() {
         Lessons
       </SectionHeading>
       <div className="max-w-[64em] text-center content-center">
-      <p>Stretch objectives, objectives that were optional for participants, are marked with a <span className="dark:bg-purple-700 bg-purple-300"> highlighted</span> background.</p>
+      <p>Click the card to view the lesson. Stretch objectives, objectives that were optional for participants, are marked with a <span className="dark:bg-purple-700 bg-purple-300"> highlighted</span> background.</p>
 
       </div>
       <div className="content-center">
