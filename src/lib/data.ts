@@ -54,6 +54,20 @@ export const projectsData: ProjectInfo[] = [
     imageAlt: "",
     link: "https://docs.google.com/document/d/1LPiuPCMzUA5eBbdRS4ES-tsXRElnw3gZyVpP3J7YHQM/edit?usp=drive_link",
   },
+  {
+    title: "Getting Started with Password Management",
+    objectives: [
+      {type: "standard", text: "Modify the questions in the feedback form", standards: ["ISTE 1.6.b Original and Remixed Works"]},
+      {type: "standard", text: "Share the user feedback form", standards: []}
+    ],
+    audience: "Product Owners at an EdTech Company",
+    description:
+      "An essential part of any person's technical repertoire is the use of a password manager. There are many out there. We'll explore LastPass to get you started.",
+    tags: ["LastPass", "security", "password manager"],
+    imageUrl: "/lp_icon.svg",
+    imageAlt: "",
+    link: "https://docs.google.com/document/d/152pYIwDQrk03Uwv81Rlb-kbGOHPIhDxpERT8qzz3HqE/edit?usp=sharing",
+  },
 ];
 
 export const resourcesData: Resource[]= [
