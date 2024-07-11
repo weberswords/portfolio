@@ -15,7 +15,7 @@ export default function Projects() {
         Lessons
       </SectionHeading>
       <div className="max-w-[48em]">
-        <p>These are sessions/lessons that include objectives for teaching applications. Stretch objectives, objectives that were optional for participants, are marked with a <span className="bg-[#e9d5ff]"> lavender </span> background.</p>
+        <p>These are sessions/lessons that include objectives for teaching applications. Stretch objectives, objectives that were optional for participants, are marked with a <span className="dark:bg-purple-700 bg-purple-300"> highlighted</span> background.</p>
       </div>
       <div className="content-center">
         {projectsData.map((project, index) => (
