@@ -18,7 +18,7 @@ export default function Resources() {
         {activeLanguage === "It" ? "I miei lavori" : "Resources"}
       </SectionHeading>
       <div>
-        <p>These are reviews of resources based on the work of <a className="underline text-[#1d4ed8]" href="https://www.researchgate.net/publication/344588659_A_design_framework_for_enhancing_engagement_in_student-centered_learning_own_it_learn_it_and_share_it_by_Lee_and_Hannafin_2016_an_international_perspective">Lee and Hannafin</a>.</p>
+        <p>These are reviews of resources based on the work of <a className="underline text-[#1d4ed8] dark:text-blue-300" href="https://www.researchgate.net/publication/344588659_A_design_framework_for_enhancing_engagement_in_student-centered_learning_own_it_learn_it_and_share_it_by_Lee_and_Hannafin_2016_an_international_perspective">Lee and Hannafin</a>.</p>
       </div>
       <div>
         {resourcesData.map((resource, index) => (
