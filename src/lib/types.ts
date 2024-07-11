@@ -32,14 +32,16 @@ type Intro = {
 
 type About = {
   title: string;
-  im: string;
-  job: string;
-  description: string;
-  stacks: string;
-  otherStacks: string;
-  otherPassion: string;
-  conclusion: string;
+  text: string;
 };
+export type Resource = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  imageAlt: string;
+  link: string;
+}
 export type Texts = {
   intro: Intro;
   about: About;

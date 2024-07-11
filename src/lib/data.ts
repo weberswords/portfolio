@@ -1,4 +1,4 @@
-import { Link, ProjectInfo } from "./types";
+import { Link, ProjectInfo, Resource } from "./types";
 
 export const links: Link[] = [
   {
@@ -12,14 +12,14 @@ export const links: Link[] = [
     hash: "#about",
   },
   {
-    nameEng: "Projects",
+    nameEng: "Lessons",
     nameIta: "Progetti",
     hash: "#projects",
   },
   {
     nameEng: "Resources",
     nameIta: "Risorse",
-    hash: "#skills",
+    hash: "#resources",
   },
   {
     nameEng: "Contact",
@@ -53,5 +53,23 @@ export const projectsData: ProjectInfo[] = [
   },
 ];
 
-export const skillsData = [
+export const resourcesData: Resource[]= [
+  {
+    title: "Exercism",
+    description:
+      "Lorem ipsum dolor sit amet, ne eos error definitiones. Eu cum nisl legendos. Vix id congue nominati platonem, an pericula consequuntur vim. Brute nemore mediocritatem eum no, mel labitur principes id. Eos tollit ceteros vulputate an.",
+    tags: ["coding"],
+    imageUrl: "/exercism.png",
+    imageAlt: "",
+    link: "https://docs.google.com/document/d/1C9tuPdR9rBwCzhO7iLN2yAx9-AhR5TecSkmCUPQkdo0/edit?usp=drive_link",
+  },
+  {
+    title: "AirTable",
+    description:
+      "Lorem ipsum dolor sit amet, ne eos error definitiones. Eu cum nisl legendos. Vix id congue nominati platonem, an pericula consequuntur vim. Brute nemore mediocritatem eum no, mel labitur principes id. Eos tollit ceteros vulputate an.",
+    tags: ["data"],
+    imageUrl: "/airtable.png",
+    imageAlt: "",
+    link: "https://docs.google.com/document/d/1fcQrQdHoGWnc8PqoKvjg7qW97jvGCROP64T8GmwqwSk/edit?usp=sharing",
+  },
 ];
